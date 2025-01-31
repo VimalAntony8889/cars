@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Building a Horizontal Navigation Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-size:  100%;
+            font-family: 'Arial', sans-serif;
+  background-image: url('A226474_web_2880.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+        }
+
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: rgba(0, 0, 0, 0.6);
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #ffd700;
+            /* Change the color on hover */
+        }
+
+        /* .rightNav {
+            text-align: right;
+        } */
+
+        #search {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+
+        .btn {
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #000;
+            /* Change the background color on hover */
+            color: #ffd700;
+        }
+        .logo-image{
+   
+    overflow: hidden;
+    margin-top: -6px;
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo-image">
+            <img src="c:\Update Cars\UC_logo.png" width="100" height="100" class="img-fluid" style="
+            margin-top: 10px;
+            margin-left: 10px;
+            ">
+      </div>
+      <div style="margin-left: 350px;
+                  margin-top: 80px;
+      ">
+        <h1 >UPDATE CARS</h1>
+      </div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.instagram.com/update_cars_/?hl=en">Instagram</a></li>
+            <li><a href="Categories.html">Cars</a></li>
+            <li><a href="c:\Update Cars\cars.html">Car Info</a></li>
+            <li><a href="C:\Update Cars\services.html">Services</a></li>
+           
+        </ul>
+       
+    </nav>
+    <div class="gallery">
+      <a href="c:\Update Cars\cars.html" target="_blank">  
+          <img src="c:\Update Cars\car info\Screenshot 2025-01-29 185403.png" alt="Porsche Panamera" width="400" height="300">
+      </a>
+      <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+          PORSCHE PANAMERA V6 3LITRE ENGINE
+      </div>
+  </div>
+  
+  
+      
+  <div class="gallery">
+    <a href="c:\Update Cars\cars.html" target="_blank">  
+        <img src="c:\Update Cars\car info\Screenshot 2024-08-15 200658.png" alt="Porsche Panamera" width="400" height="300">
+    </a>
+    <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+      AUDI Q5 2.0TI
+    </div>
+</div>
+      
+<div class="gallery">
+  <a href="c:\Update Cars\cars.html" target="_blank">  
+      <img src="c:\Update Cars\car info\Screenshot 2024-08-15 200733.png" alt="Porsche Panamera" width="400" height="300">
+  </a>
+  <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+    VOLVO S60 POLE STAR
+  </div>
+</div>
+      
+<div class="gallery">
+  <a href="c:\Update Cars\cars.html" target="_blank">  
+      <img src="c:\Update Cars\car info\Screenshot 2024-08-15 202158.png" alt="Porsche Panamera" width="400" height="300">
+  </a>
+  <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+    Audi A6 Matrix
+  </div>
+
+  <div class="gallery">
+    <a href="c:\Update Cars\cars.html" target="_blank">  
+        <img src="c:\Update Cars\car info\Screenshot 2024-08-15 202142.png" alt="Porsche Panamera" width="400" height="300">
+    </a>
+    <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+      B M W X3 
+    </div>
+    <div class="gallery">
+      <a href="c:\Update Cars\cars.html" target="_blank">  
+          <img src="c:\Update Cars\car info\Screenshot 2024-08-15 202002.png" alt="Porsche Panamera" width="400" height="300">
+      </a>
+      <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+        MERCEDES BENZ A200D 
+      </div>
+
+
+      <div class="gallery">
+        <a href="c:\Update Cars\cars.html" target="_blank">  
+            <img src="c:\Update Cars\car info\Screenshot 2024-08-15 202122.png" alt="Porsche Panamera" width="400" height="300">
+        </a>
+        <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+          JAGUAR XF 
+        </div>
+
+        <div class="gallery">
+          <a href="c:\Update Cars\cars.html" target="_blank">  
+              <img src="c:\Update Cars\car info\Screenshot 2025-01-29 215250.png" alt="Porsche Panamera" width="400" height="300">
+          </a>
+          <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+            Rextron Ssanyang 
+          </div>
+
+          <div class="gallery">
+            <a href="c:\Update Cars\cars.html" target="_blank">  
+                <img src="c:\Update Cars\car info\Screenshot 2024-08-15 201900.png" alt="Porsche Panamera" width="400" height="300">
+            </a>
+            <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+              MERCEDES BENZ E280 
+            </div>
+
+      <div class="gallery">
+        <a href="c:\Update Cars\cars.html" target="_blank"> 
+          <img src="c:\Users\Vimal Antony\OneDrive\Pictures\Screenshots\Screenshot 2024-08-15 200238.png" alt="Mountains" width="400" height="300">
+        </a>
+        <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+        B M W 520d
+      </div>
+
+      
+    <!--
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="c:\Users\Vimal Antony\Pictures\Screenshots\Screenshot 2024-08-15 202058.png" alt="Mountains" width="300" height="250">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="c:\Users\Vimal Antony\Pictures\Screenshots\Screenshot 2024-08-15 202142.png" alt="rolls" width="300" height="250">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="c:\Users\Vimal Antony\Pictures\Screenshots\Screenshot 2024-08-15 202015.png" alt="rolls" width="300" height="250">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="c:\Users\Vimal Antony\Pictures\Screenshots\Screenshot 2024-08-15 202033.png" alt="rolls" width="300" height="250">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="c:\Users\Vimal Antony\Pictures\Screenshots\Screenshot 2024-08-15 202133.png" alt="rolls" width="300" height="250">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="c:\Users\Vimal Antony\Pictures\Screenshots\Screenshot 2024-08-15 201949.png" alt="rolls" width="300" height="250">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      -->
+
+</body>
+
+</html>
